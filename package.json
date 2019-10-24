@@ -1,5 +1,5 @@
 {
-  "name": "image-slider",
+  "name": "@bounoable/vue-image-slider",
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
