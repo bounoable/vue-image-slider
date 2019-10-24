@@ -10,7 +10,7 @@ function install(Vue: VueConstructor) {
   // @ts-ignore
   install.installed = true
   // @ts-ignore
-  Vue.component('ImageSlider', Slider)
+  Vue.component('image-slider', Slider)
 }
 
 const plugin = { install }
