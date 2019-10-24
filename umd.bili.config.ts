@@ -24,7 +24,7 @@ const config: Config = {
 
   globals: {
     'vue': 'Vue',
-    // '@vue/composition-api': 'vueCompositionApi',
+    '@vue/composition-api': 'vueCompositionApi',
   },
 }
 
