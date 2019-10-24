@@ -2,10 +2,15 @@
   "name": "customers-slider",
   "version": "0.1.0",
   "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "dev": "vue-cli-service serve dev/main.ts",
-    "build": "rimraf ./dist && bili"
+    "build": "rimraf ./dist && yarn build:module && yarn build:umd",
+    "build:module": "bili -c module.bili.config.ts",
+    "build:umd": "bili -c umd.bili.config.ts"
   },
+  "license": "MIT",
   "dependencies": {
     "@vue/composition-api": "^0.3.2",
     "core-js": "^3.3.2",

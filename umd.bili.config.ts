@@ -5,14 +5,10 @@ const config: Config = {
   bundleNodeModules: true,
 
   output: {
-    format: ['umd', 'umd-min', 'esm', 'cjs'],
+    format: ['umd', 'umd-min'],
     moduleName: 'ImageSlider',
     fileName(ctx, defaultName) {
-      if (ctx.format.indexOf('umd') > -1) {
-        return 'image-slider[min].[format].js'
-      }
-
-      return defaultName
+      return 'image-slider[min].[format].js'
     },
     extractCSS: false,
   },
