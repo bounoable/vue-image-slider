@@ -55,17 +55,23 @@ export default createComponent({
 </script>
 
 <template>
-<div class="AppContainer">
-  <div class="App">
+<div class="App">
+  <div class="AppContainer">
     <Slider :elements="elements"/>
   </div>
 </div>
 </template>
 
 <style lang="sass" scoped>
-.AppContainer
-  @apply bg-orange-400
-
 .App
-  @apply max-w-6xl mx-auto
+  @apply h-full flex items-center
+
+.AppContainer
+  @apply w-full max-w-6xl mx-auto
+</style>
+
+<style lang="sass">
+html,
+body
+  @apply h-full bg-gray-800
 </style>
