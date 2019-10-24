@@ -145,7 +145,7 @@ export default createComponent<Props>({
   @apply flex justify-center mt-8
 
 .Slider__control
-  @apply w-4 h-4 rounded-full border border-white cursor-pointer mx-1
+  @apply w-4 h-4 rounded-full border border-white border-solid cursor-pointer mx-1
   transition: all 0.15s
 
   &:hover
