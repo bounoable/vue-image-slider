@@ -23,8 +23,8 @@ const config: Config = {
   },
 
   globals: {
-    'vue': 'window.Vue',
-    '@vue/composition-api': 'window.compositionApi',
+    'vue': 'Vue',
+    '@vue/composition-api': 'vueCompositionApi',
   },
 }
 
