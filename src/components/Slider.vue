@@ -121,7 +121,7 @@ export default createComponent<Props>({
   @apply px-2 flex justify-center items-center
 
 .Slider__img
-  max-height: 10rem
+  max-height: 7rem
 
 .SliderTransition
   &-enter-active,
