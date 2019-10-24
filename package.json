@@ -1,9 +1,11 @@
 {
-  "name": "customers-slider",
+  "name": "image-slider",
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "unpkg": "dist/image-slider.min.umd.js",
+  "jsdelivr": "dist/image-slider.min.umd.js",
   "scripts": {
     "dev": "vue-cli-service serve dev/main.ts",
     "build": "rimraf ./dist && yarn build:module && yarn build:umd",
