@@ -10,11 +10,10 @@ function install(Vue: VueConstructor) {
   // @ts-ignore
   install.installed = true
   // @ts-ignore
-  Vue.component('image-slider', Slider)
+  Vue.component('ImageSlider', Slider)
 }
 
 const plugin = { install }
-
 
 let GlobalVue = null
 if (typeof window !== 'undefined') {
