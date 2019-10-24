@@ -1,6 +1,6 @@
 {
   "name": "@bounoable/vue-image-slider",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/image-slider.min.umd.js",
